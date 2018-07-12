@@ -4,12 +4,12 @@ class Dog
     @name
 end 
 
-  def name = (dog_name)
-    @name = dog_name
+  def name = (name)
+    @name = name
   end 
 end
 
 fido = Dog.new 
 fido.name = "Fido"
 
-puts fido.name
+# puts fido.name
